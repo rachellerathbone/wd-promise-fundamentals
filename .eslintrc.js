@@ -11,6 +11,6 @@ module.exports = {
   },
 
   rules: {
-    'arrow-body-style': 0
+    'arrow-body-style': 'off'
   }
 };

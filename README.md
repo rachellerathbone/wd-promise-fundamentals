@@ -46,6 +46,22 @@ Follow the instructions in `lib/4_pokemon_form_version_group.js`. Test your code
 npm test test/4_pokemon_form_version_group.test.js
 ```
 
+## Bonus
+
+Currently, the [`arrow-body-style`](http://eslint.org/docs/rules/arrow-body-style) ESLint rule is turned off. In the `.eslintrc.js` file, enable the rule with the following configuration.
+
+```javascript
+rules: {
+  'arrow-body-style': ['error', 'as-needed']
+}
+```
+
+And lint the code.
+
+```shell
+npm run lint
+```
+
 ## Solutions
 
 The [solutions](https://github.com/gSchool/wd-promise-fundamentals-solution) are available to instructors as well as students who've completed this assignment.
